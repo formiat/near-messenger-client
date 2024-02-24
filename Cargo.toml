@@ -1,0 +1,19 @@
+[package]
+name = "near-messenger-client"
+version = "0.1.0"
+authors = ["Alexander Aglerimov <formiat95@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+aes = "0.7"
+anyhow = "1"
+block-modes = { version = "0.8", features = ["std"] }
+clap = "4"
+hex = "0.4"
+near-jsonrpc-client = "0.8"
+near-jsonrpc-primitives = "0.20"
+near-primitives = "0.20"
+rand = "0.8"
+serde = "1"
+serde_json = "1"
+tokio = { version = "1", features = [] }
